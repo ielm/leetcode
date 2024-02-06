@@ -1,8 +1,9 @@
 // The same logic can be applied to maintain a monotonic queue
 
+#[allow(unused_mut)]
 pub fn monotonic_increasing_stack(arr: &[i32]) {
     let mut stack: Vec<i32> = Vec::new();
-    let mut ans = 0;
+    let mut _ans = 0;
 
     for &num in arr {
         while let Some(&top) = stack.last() {

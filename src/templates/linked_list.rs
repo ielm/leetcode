@@ -1,3 +1,4 @@
+#![allow(unused_mut)]
 use crate::util::linked_list::ListNode;
 
 fn fast_and_slow_pointer(mut head: Option<Box<ListNode>>) -> i32 {

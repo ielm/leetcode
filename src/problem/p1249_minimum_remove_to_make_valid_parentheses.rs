@@ -1,7 +1,4 @@
-use std::{
-    char,
-    collections::{HashSet},
-};
+use std::{char, collections::HashSet};
 
 /**
  * [1249] Minimum Remove to Make Valid Parentheses
@@ -239,7 +236,7 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
-    use super::*;
+    // use super::*;
 
     #[test]
     fn test_1249() {}

@@ -12,7 +12,7 @@
  *  
  * Constraints:
  * 
- * 	-1000 <= a, b <= 1000
+ *     -1000 <= a, b <= 1000
  * 
  */
 pub struct Solution {}
@@ -32,7 +32,7 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
-    use super::*;
+    // use super::*;
 
     #[test]
     fn test_371() {

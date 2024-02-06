@@ -1,3 +1,4 @@
+#![allow(unused_mut)]
 use super::CONDITION;
 
 fn one_input_opposite_ends(arr: &[i32]) -> i32 {

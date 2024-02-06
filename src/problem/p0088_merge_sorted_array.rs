@@ -49,14 +49,14 @@ pub struct Solution {}
 // submission codes start here
 
 impl Solution {
-    pub fn merge(_nums1: &mut Vec<i32>, _m: i32, _nums2: &mut Vec<i32>, _n: i32) {}
+    pub fn merge(_nums1: &mut [i32], _m: i32, _nums2: &mut [i32], _n: i32) {}
 }
 
 // submission codes end
 
 #[cfg(test)]
 mod tests {
-    use super::*;
+    // use super::*;
 
     #[test]
     fn test_88() {}
