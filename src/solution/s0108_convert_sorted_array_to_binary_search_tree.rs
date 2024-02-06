@@ -73,10 +73,10 @@ impl Solution {
     }
 
     pub fn sorted_array_to_bst(nums: Vec<i32>) -> Option<Rc<RefCell<TreeNode>>> {
-        let mut n = nums.len();
+        let n = nums.len();
 
         if n == 0 {
-            return None;
+            None
         } else {
             let m = n / 2;
             let mut node = TreeNode::new(nums[m]);
@@ -92,7 +92,7 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
-    use super::*;
+    // use super::*;
 
     #[test]
     fn test_108() {}
