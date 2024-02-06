@@ -11,3 +11,4 @@ mod s0387_first_unique_character_in_a_string;
 mod s0408_valid_word_abbreviation;
 mod s0691_stickers_to_spell_word;
 mod s2407_longest_increasing_subsequence_ii;
+mod s0257_binary_tree_paths;
