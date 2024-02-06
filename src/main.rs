@@ -24,8 +24,10 @@ use std::sync::{Arc, Mutex};
 /// main() helps to generate the submission template .rs
 #[tokio::main]
 async fn main() {
+
     println!("Welcome to leetcode-rust system.\n");
     let mut initialized_ids = get_initialized_ids();
+    dotenvy::dotenv().ok();
     loop {
         println!(
             "Please enter a frontend problem id, \n\

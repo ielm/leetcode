@@ -22,13 +22,26 @@ pub async fn get_problem(frontend_question_id: u32) -> Option<Problem> {
     let problems = get_problems().await.unwrap();
     for problem in problems.stat_status_pairs.iter() {
         if problem.stat.frontend_question_id == frontend_question_id {
-            if problem.paid_only {
-                return None;
-            }
+            // if problem.paid_only {
+            //     return None;
+            // }
+
+            let cookie = match std::env::var("LEETCODE_COOKIE") {
+                Ok(val) => val,
+                Err(_) => "".to_string(),
+            };
+
+            let mut headers = reqwest::header::HeaderMap::new();
+            headers.insert(
+                "Cookie",
+                reqwest::header::HeaderValue::from_str(&cookie).unwrap(),
+            );
+            headers.insert("Content-Type", "application/json".parse().unwrap());
 
             let client = reqwest::Client::new();
             let resp: RawProblem = client
                 .post(GRAPHQL_URL)
+                .headers(headers)
                 .json(&Query::question_query(
                     problem.stat.question_title_slug.as_ref().unwrap(),
                 ))
