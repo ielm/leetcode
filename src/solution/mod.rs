@@ -1,12 +1,13 @@
+mod s0049_group_anagrams;
 mod s0070_climbing_stairs;
 mod s0108_convert_sorted_array_to_binary_search_tree;
 mod s0109_convert_sorted_list_to_binary_search_tree;
 mod s0226_invert_binary_tree;
 mod s0242_valid_anagram;
 mod s0300_longest_increasing_subsequence;
+mod s0301_remove_invalid_parentheses;
 mod s0314_binary_tree_vertical_order_traversal;
+mod s0387_first_unique_character_in_a_string;
 mod s0408_valid_word_abbreviation;
 mod s0691_stickers_to_spell_word;
 mod s2407_longest_increasing_subsequence_ii;
-mod s0387_first_unique_character_in_a_string;
-mod s0301_remove_invalid_parentheses;
