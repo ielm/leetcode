@@ -20,7 +20,7 @@ impl GraphNode {
 pub fn to_graph(vec: Vec<(i32, Vec<i32>)>) -> Vec<Rc<RefCell<GraphNode>>> {
     // Create a vector of `GraphNode` references wrapped in `Rc<RefCell<_>>`
     // for each value in the input vector.
-    let mut nodes = vec
+    let nodes = vec
         .iter()
         .map(|(val, _)| Rc::new(RefCell::new(GraphNode::new(*val))))
         .collect::<Vec<_>>();
