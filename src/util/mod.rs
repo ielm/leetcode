@@ -8,3 +8,5 @@ pub mod tree;
 pub mod point;
 #[macro_use]
 pub mod graph;
+#[macro_use]
+pub mod nested_integer;
