@@ -13,3 +13,5 @@ mod s0387_first_unique_character_in_a_string;
 mod s0408_valid_word_abbreviation;
 mod s0691_stickers_to_spell_word;
 mod s2407_longest_increasing_subsequence_ii;
+mod s1762_buildings_with_an_ocean_view;
+mod s0124_binary_tree_maximum_path_sum;
