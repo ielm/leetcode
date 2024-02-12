@@ -1,3 +1,6 @@
+#![allow(dead_code)]
+#![allow(unused_variables)]
+
 mod p0001_two_sum;
 mod p0011_container_with_most_water;
 mod p0053_maximum_subarray;
