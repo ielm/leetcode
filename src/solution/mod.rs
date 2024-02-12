@@ -15,3 +15,4 @@ mod s0691_stickers_to_spell_word;
 mod s2407_longest_increasing_subsequence_ii;
 mod s1762_buildings_with_an_ocean_view;
 mod s0124_binary_tree_maximum_path_sum;
+mod s0236_lowest_common_ancestor_of_a_binary_tree;
