@@ -1,4 +1,5 @@
 /target
 notes/prompts/
+notes/other.md
 .env
 Cargo.lock
