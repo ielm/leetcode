@@ -34,11 +34,10 @@ impl Solution {
 
         for n in nums {
             if set.contains(&n) {
-                return true
-            } else {
-                set.insert(n);
+                return true;
             }
-        } 
+            set.insert(n);
+        }
         false
     }
 }
